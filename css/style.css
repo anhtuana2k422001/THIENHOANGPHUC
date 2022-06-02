@@ -776,11 +776,11 @@ ul.team_icons_agile li {
   margin-right: 1em;
 }
 .w3_agile_team_grid_info img {
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
   margin: 0 auto;
   text-align: center;
   width: 66%;
