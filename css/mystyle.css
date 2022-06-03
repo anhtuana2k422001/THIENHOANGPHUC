@@ -3,8 +3,14 @@
     font-weight: bold !important;
 }
 
+.slide.slide_contact{
+    color: #0c1099 ; 
+    font-weight: 900 ;
+    font-size: 32px;
+}
+
 .bui.text_introduction{
-    font-size: 20px;
+    font-size: 18px;
 }
 
  /* Info Person  */
@@ -33,4 +39,50 @@
 .info_company{
     color: rgb(218, 27, 27);
     font-size: 14px;
+}
+
+/* Services */
+.margin_top_32{
+    margin-top: 32px;
+}
+
+.margin_top_16{
+    margin-top: 16px;
+}
+
+.margin_top_8{
+    margin-top: 8px;
+}
+
+
+.margin_bottom_32{
+    margin-bottom: 32px;
+}
+
+.margin_bottom_16{
+    margin-bottom: 16px;
+}
+
+.title_name{
+    color:rgb(218, 10, 148);
+    font-weight: 500;
+}
+
+.content_text_label {
+    font-size: 18px;
+}
+
+.image.image_project_service{
+    width: 70%;
+    height: 500px !important;
+}
+
+.list_item--info{
+    list-style: none;
+    font-size: 18px;
+}
+
+/* Css - footer */
+.fa.icon_footer{
+    color: white;
 }

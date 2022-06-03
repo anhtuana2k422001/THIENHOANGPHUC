@@ -902,7 +902,7 @@ p.stats-info {
 
 /*-- footer --*/
 .footer {
-  background: #000;
+  background: #19361a;
   padding: 4em 0;
 }
 .agile_footer_grid h3,
@@ -966,7 +966,7 @@ p.stats-info {
 .wthree_footer_grid_right input[type="email"] {
   outline: none;
   padding: 12px;
-  background: rgb(27, 27, 27);
+  background: #36603c;
   font-size: 1em;
   color: #fff;
   width: 70%;
