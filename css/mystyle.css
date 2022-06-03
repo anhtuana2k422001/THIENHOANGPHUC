@@ -6,3 +6,31 @@
 .bui.text_introduction{
     font-size: 20px;
 }
+
+ /* Info Person  */
+
+.w3_agile_team_grid_info.person_info{
+    border: 1px solid #1c5e1d;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0px 5px 16px rgb(0 0 0 / 10%);
+}
+
+.person.person_name{
+    margin: 10px;
+    padding: 0;
+}
+
+.home-product-item__rating.start{
+    margin-bottom: 10px;
+}
+
+.name_company{
+    text-align: center;
+    color: black;
+}
+
+.info_company{
+    color: rgb(218, 27, 27);
+    font-size: 14px;
+}
