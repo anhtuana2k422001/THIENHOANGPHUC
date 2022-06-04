@@ -19,10 +19,17 @@
     margin-bottom: 16px;
 }
 
+.margin_minus_50{
+    margin-top: 10px ; 
+}
+
 .text-bold{
     font-weight: bold;
     font-size: 18px;
 }
+
+
+
 
 /* Css -- index  */
 
@@ -41,11 +48,22 @@
     font-size: 18px;
 }
 
+.fa.icon_introduction{
+    color: darkolivegreen !important;
+}
+
+.fa.icon_introduction:hover{
+    color: #b06010!important;
+}
  /* Info Person  */
+
+ .text-hepper--info{
+     margin: 0 !important;
+ }
 
 .w3_agile_team_grid_info.person_info{
     border: 1px solid #1c5e1d;
-    cursor: pointer;
+    /* cursor: pointer; */
     border-radius: 5px;
     box-shadow: 0px 5px 16px rgb(0 0 0 / 10%);
 }
@@ -71,7 +89,10 @@
 
 
 /* Css - helper */
+.w3_agile_team_grid_info.person_info{
+    margin-bottom: 16px;
 
+}
 
 .content_info-person{
     background-color: #1f7739;

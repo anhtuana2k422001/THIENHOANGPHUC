@@ -1355,8 +1355,12 @@ h3.agileits-icons-title {
   .icon-box {
     margin: 0;
   }
+  .slide.slide_contact{
+    font-size: 18px !important;
+  }
 }
 @media (max-width: 640px) {
+
   .icon-box {
     float: left;
     width: 50%;
@@ -2188,6 +2192,7 @@ h2.typoh2 {
     width: 100%;
     background: #161617;
     z-index: 999;
+    height: 295px;
   }
   .navbar-right {
     margin: 0;
@@ -2213,8 +2218,11 @@ h2.typoh2 {
   }
   .navbar-nav .open .dropdown-menu {
     position: absolute;
-    float: left;
-    left: 38%;
+    width: calc(100% - 60px);
+    position: absolute;
+    padding: 0 20px;
+    left: 0 !important;
+    margin: 0 30px;
   }
   .agile_gallery_grid {
     margin-top: 1em;
@@ -2386,8 +2394,11 @@ h2.typoh2 {
   .w3layouts_gallery_grid1_pos h3 {
     padding-bottom: 0;
   }
+
+ 
 }
 @media (max-width: 480px) {
+ 
   .navbar-brand {
     font-size: 0.7em;
     margin-left: 0;
