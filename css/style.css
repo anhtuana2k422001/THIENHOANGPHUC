@@ -312,6 +312,7 @@ a:focus {
 }
 .navbar-collapse {
   padding: 0;
+  margin-bottom: 10px !important;
 }
 .navbar-right {
   margin-right: 0;
@@ -1844,7 +1845,7 @@ h2.typoh2 {
   color: #fff;
 }
 .offer {
-  background: url(../images/banner-2.jpg) no-repeat 0px 0px;
+  background: url(../images/banner-2_about.jpg) no-repeat 0px 0px;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -2742,8 +2743,13 @@ h2.typoh2 {
 
 .description,
 .item-title {
-  color: white;
+  color: #f3f3f3;
 }
+
+.description p {
+  font-size: 22px;
+}
+
 
 .uk-grid-collapse {
   display: flex;
@@ -2759,7 +2765,7 @@ h2.typoh2 {
 }
 
 .img-cover {
-  background-color: #b06010;
+  background-color: #fff0f3;
   width: 76px;
   height: 76px;
   display: flex;

@@ -28,6 +28,9 @@
     font-size: 18px;
 }
 
+.padding_left_32{
+    padding-left: 32px;
+}
 
 
 
@@ -39,9 +42,9 @@
 }
 
 .slide.slide_contact{
-    color: #0c1099 ; 
-    font-weight: 900 ;
-    font-size: 32px;
+    color: #0c4b92 ; 
+    font-weight: bold ;
+    font-size: 28px;
 }
 
 .bui.text_introduction{
@@ -186,3 +189,68 @@
     color: white;
 }
 
+.zalo-container {
+    position: fixed;
+    bottom: 84px;
+    z-index: 9;
+    left: 20px;
+    background-color: #0c4b92;
+    width: 60px ;
+    height: 60px ;
+    border-radius: 50%;
+}
+
+.zalo-container a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px ;
+    height: 60px ;
+}
+
+.hotline-phone-ring-wrap {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999999;
+}
+
+
+.hotline-bar {
+    position: absolute;
+    background: rgba(247, 3, 3, 0.7);
+    height: 40px;
+    width: 225px;
+    line-height: 40px;
+    border-radius: 3px;
+    padding: 0 10px;
+    background-size: 100%;
+    cursor: pointer;
+    transition: all .8s;
+    -webkit-transition: all .8s;
+    z-index: 9;
+    box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 10%);
+    border-radius: 50px!important;
+    left: 20px;
+    bottom: 37px;
+}
+
+.hotline-bar>a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    text-indent: 40px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    font-family: Arial;
+}
+
+span.text-hotline {
+    margin-left: 10px;
+}
+
+.fa.icon_phone{
+    display: inline;
+    margin-left: 10px;
+}
