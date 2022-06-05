@@ -49,6 +49,7 @@
 
 .bui.text_introduction{
     font-size: 16px;
+    padding: 15px;
 }
 
 .fa.icon_introduction{
@@ -212,7 +213,8 @@
     position: fixed;
     bottom: 0;
     left: 0;
-    z-index: 999999;
+    z-index: 9;
+    width: 100%;
 }
 
 
@@ -220,7 +222,7 @@
     position: absolute;
     background: rgba(247, 3, 3, 0.7);
     height: 40px;
-    width: 225px;
+    width: auto;
     line-height: 40px;
     border-radius: 3px;
     padding: 0 10px;
@@ -253,4 +255,16 @@ span.text-hotline {
 .fa.icon_phone{
     display: inline;
     margin-left: 10px;
+}
+
+@media (max-width: 600px) {
+    .uk-grid-collapse {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .our-target-item {
+        text-align: center;
+        margin-bottom: 25px;
+    }
 }

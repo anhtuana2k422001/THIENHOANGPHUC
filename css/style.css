@@ -145,6 +145,7 @@ a:focus {
 }
 .banner ul li:nth-child(2) {
   background: url(../images/banner-1.jpg) no-repeat center center !important;
+
 }
 .banner ul li:nth-child(3) {
   background: url(../images/banner-2.jpg) no-repeat center center !important;
