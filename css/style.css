@@ -399,7 +399,7 @@ nav.navbar.navbar-default {
   border-radius: 0px;
 }
 .navbar-nav {
-  margin: 0.8em 0 0 2em;
+  margin: 0.8em 0 0 2em !important;
 }
 .agile_short_dropdown {
   border-radius: 0;
@@ -1968,7 +1968,7 @@ h2.typoh2 {
     right: 20px;
   }
   .navbar-nav {
-    margin: 0.8em 0 0 1.6em;
+    margin: 0.8em 0 0 1.2em ;
   }
   .banner1 {
     min-height: 220px;
